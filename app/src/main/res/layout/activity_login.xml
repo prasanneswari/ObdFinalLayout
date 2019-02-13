@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="jts.mahesh.jtsdesktop.obdfinallayout.Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/loginshape"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_gravity="center_vertical"
+        >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:padding="5dp">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Obd Login"
+               android:textStyle="bold"
+               android:textSize="25dp"
+               android:gravity="center"
+               android:textColor="#ab7fe9"/>
+
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:padding="5dp">
+
+           <TextView
+               android:layout_width="0dp"
+               android:layout_weight="0.3"
+               android:layout_height="wrap_content"
+               android:text="UserLogin"
+               android:gravity="center"
+               android:textSize="15dp"
+               android:id="@+id/usertxt"
+               />
+           <EditText
+               android:layout_width="0dp"
+               android:layout_weight="0.7"
+               android:layout_height="wrap_content"
+               android:textColor="#000000"
+               android:background="#FFFFFF"
+               android:padding="5dp"
+               android:id="@+id/userInput"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:padding="5dp">
+           <TextView
+               android:layout_width="0dp"
+               android:layout_weight="0.3"
+               android:layout_height="wrap_content"
+               android:text="Password"
+               android:gravity="center"
+               android:textSize="15dp"
+               android:id="@+id/passtxt"
+               />
+           <EditText
+               android:layout_width="0dp"
+               android:layout_weight="0.7"
+               android:layout_height="wrap_content"
+               android:textColor="#000000"
+               android:background="#FFFFFF"
+               android:padding="5dp"
+               android:id="@+id/passInput"
+               android:inputType="textPassword"/>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:padding="5dp">
+           <TextView
+               android:layout_width="0dp"
+               android:layout_weight="0.3"
+               android:layout_height="wrap_content"
+               android:text="MacId"
+               android:gravity="center"
+               android:textSize="15dp"
+               android:id="@+id/mactxt"
+               />
+           <EditText
+               android:layout_width="0dp"
+               android:layout_weight="0.7"
+               android:layout_height="wrap_content"
+               android:textColor="#000000"
+               android:background="#FFFFFF"
+               android:padding="5dp"
+               android:id="@+id/macInput"
+               />
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <Button
+               style="?android:textAppearanceSmall"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="16dp"
+               android:text="login"
+               android:textStyle="bold"
+               android:textColor="#ffffffff"
+               android:background="#ff7e51c2"
+               android:id="@+id/loginbtn"
+               />
+
+
+           <!-- <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="login"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#f4061e"
+                android:gravity="center"
+                android:id="@+id/loginbtn"
+                />-->
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+
+</LinearLayout>
